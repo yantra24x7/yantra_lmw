@@ -17,5 +17,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('Deploy') {
+            steps {
+                echo 'Altius Project completed Successfully'
+            }
+        }
     }
 }
