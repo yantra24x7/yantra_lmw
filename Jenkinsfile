@@ -4,22 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-        stage('Success') {
-            steps {
-                echo 'Altius Project completed Successfully'
+                nodejs(nodeJSInstallationName: 'Node 12.18.2', configId: '<config-file-provider-id>') {
+                    sh 'npm config ls'
+                }
             }
         }
     }
