@@ -17,7 +17,7 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        stage('Deploy') {
+        stage('Success') {
             steps {
                 echo 'Altius Project completed Successfully'
             }
