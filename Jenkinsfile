@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Success') {
             steps {
-                echo 'Altius Project completed Successfully'
+                echo 'Altius Project'
             }
         }
     }
