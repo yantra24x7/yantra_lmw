@@ -232,12 +232,16 @@ console.log(this.value)
   }
 
   getShiftTime(event) {
+    console.log(event)
     console.log(event.value.duration)
     this.duration = event.value.duration;
-    // this.toSeconds(event.value.total_hour)
+    console.log(event.value.total_hour)
+   //this.toSeconds(event.value.total_hour)
     this.login.patchValue({
       availability: event.value.total_hour
     })
+    console.log(event.value.total_hour)
+
   }
 
 removeQuestion(i) {

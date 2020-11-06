@@ -5,11 +5,11 @@
 export const environment = {
   production: false,
   version: '1.0.0',
- //serverUrl: 'http://13.235.142.89:5000/api/v1/',
+ serverUrl: 'http://13.235.142.89:5000/api/v1/',
     //serverUrl: 'http://192.168.0.237:5000/api/v1/',
-   serverUrl: ' http://13.235.142.89:81/api/v1/',
+   //serverUrl: ' http://13.235.142.89:81/api/v1/',
 };
-/*
+/*: http://13.235.142.89:5000/api/v1/sync_production_parts
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
  *

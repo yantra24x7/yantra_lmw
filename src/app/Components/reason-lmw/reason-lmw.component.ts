@@ -69,6 +69,9 @@ export class ReasonLmwComponent implements OnInit {
     }).then((result) => {
       if (result.value) {
         this.service.delete_reason(id).subscribe(res => {
+          console.log(res)
+          this.ngOnInit();
+
           this.toast.success('Deleted Successfully');
           this.ngOnInit();
         }, );
