@@ -30,7 +30,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss",
-              "node_modules/ngx-toastr/toastr.css"  
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
@@ -54,7 +54,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "2mb",
+                  "maximumWarning": "4mb", 
                   "maximumError": "5mb"
                 },
                 {
@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "Yantra8"
+  "defaultProject": "Yantra8",
+  "cli": {
+    "analytics": "8f36f641-6b83-4df4-8ce9-2278206d5139"
+  }
 }
